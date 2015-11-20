@@ -9,6 +9,7 @@ mcu_stm32f4 = ["zinc/mcu_stm32f4"]
 mcu_stm32l1 = ["zinc/mcu_stm32l1"]
 mcu_k20 = ["zinc/mcu_k20"]
 mcu_tiva_c = ["zinc/mcu_tiva_c"]
+mcu_nrf51822 = ["zinc/mcu_nrf51822"]
 
 [dependencies]
 zinc = { path =  "../.." }

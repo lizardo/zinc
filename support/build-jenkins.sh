@@ -54,6 +54,10 @@ else
       TARGET=thumbv7m-none-eabi
       EXAMPLES="empty blink_stm32l1 bluenrg_stm32l1 usart_stm32l1"
       ;;
+    nrf51822 )
+      TARGET=thumbv6m-none-eabi
+      EXAMPLES="empty"
+      ;;
   esac
 
   cargo build --target=$TARGET --features "mcu_$PLATFORM" --lib

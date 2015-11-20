@@ -16,3 +16,4 @@ env:
     - PLATFORM=k20
     - PLATFORM=stm32f4
     - PLATFORM=stm32l1
+    - PLATFORM=nrf51822

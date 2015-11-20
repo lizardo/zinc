@@ -22,6 +22,7 @@ mcu_stm32l1 = ["cpu_cortex-m3"]
 mcu_k20 = ["cpu_cortex-m4"]
 mcu_tiva_c = ["cpu_cortex-m4"]
 multitasking = ["cpu_cortex-m4"]
+mcu_nrf51822 = ["cpu_cortex-m0"]
 
 [target.thumbv6m-none-eabi.dependencies]
 rust-libcore = "*"

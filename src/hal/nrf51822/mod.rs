@@ -17,3 +17,4 @@
 
 mod regs;
 pub mod power;
+pub mod gpio;

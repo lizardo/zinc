@@ -21,3 +21,11 @@ pub fn pin_clear(pin: usize)
   regs::GPIO().OUTCLR.ignoring_state()
     .set_PIN(pin, regs::GPIO_OUTCLR_PIN::High);
 }
+
+/// Set the given GPIO pin
+#[inline(always)]
+pub fn pin_set(pin: usize)
+{
+  regs::GPIO().OUTSET.ignoring_state()
+    .set_PIN(pin, regs::GPIO_OUTSET_PIN::High);
+}
